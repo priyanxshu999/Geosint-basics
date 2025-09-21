@@ -11,50 +11,50 @@
 
 ---
 
-## 🚀 Mission Brief
+## Mission Brief
 GeoSINT challenges throw you into the wild with a single clue — an **image, landmark, or a piece of text**.  
 Your task: **hunt down the exact location** using pure OSINT and recon skills.  
 This isn’t guessing. It’s methodical **digital tracking**.
 
 ---
 
-## 🧭 Recon Protocols
+##  Recon Protocols
 
 ### 🔍 Step 1 — Observe
 - Scan the picture like a hawk.  
 - Signs, languages, road marks, license plates, architecture, vegetation.  
 - Check **shadow angles** → hemisphere clue.  
 
-### 🛰️ Step 2 — Reverse Image Search
+###  Step 2 — Reverse Image Search
 - Tools:
   - Google Lens  
   - Yandex Images (god-tier for landmarks)  
   - TinEye  
 - Break the image into parts if whole search fails.  
 
-### 🗂️ Step 3 — Metadata Sweep
+###  Step 3 — Metadata Sweep
 If raw file provided:
 ```bash
 exiftool challenge.jpg
 ```
 - Look for GPS, camera model, editing traces.  
 
-### 🗺️ Step 4 — Map Recon
+###  Step 4 — Map Recon
 - Google Maps / Earth  
 - OpenStreetMap  
 - Street View (match skylines, roads, unique objects).  
 
-### 🌐 Step 5 — Cross-Reference
+###  Step 5 — Cross-Reference
 - Identify text language.  
 - Match vehicle plates, country codes, domains, currency symbols.  
 
-### ✅ Step 6 — Validation
+###  Step 6 — Validation
 - Confirm landmark from multiple angles.  
 - Double-check coordinates before flagging.  
 
 ---
 
-## 🛠️ Recon Arsenal
+##  Recon Arsenal
 - **Image Forensics**: `exiftool`, `strings`, FotoForensics  
 - **Reverse Search**: Yandex, Google Lens, TinEye  
 - **Mapping**: Google Maps, Earth, OpenStreetMap  
@@ -62,8 +62,8 @@ exiftool challenge.jpg
 
 ---
 
-## ⚔️ Sample Hunt
-📸: Random tower with Cyrillic text  
+##  Sample Hunt
+: Random tower with Cyrillic text  
 1. Script spotted → Eastern Europe  
 2. Yandex search → Riga TV Tower  
 3. Street View match → ✅  
@@ -74,7 +74,7 @@ CTF{56.9496,24.1052}
 
 ---
 
-## 🔥 Hunter Tips
+##  Hunter Tips
 - Tiny details crack cases (trees, poles, windows).  
 - File names sometimes leak hints.  
 - Shadow = hemisphere.  
@@ -82,13 +82,13 @@ CTF{56.9496,24.1052}
 
 ---
 
-## 🎯 Endgame
+##  Endgame
 GeoSINT = Patience + OSINT + Eye for Detail.  
 Get fast, get sharp, and hunt locations like a ghost.  
 
 ---
 
-### ⚡ Flag Format
+### Flag Format
 ```
 CTF{latitude,longitude}
 ```
