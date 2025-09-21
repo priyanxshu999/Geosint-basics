@@ -7,11 +7,7 @@
 ```
 <h1 align="center">🌍 GeoSINT CTF — Hunter's Guide 🕵️‍♂️</h1>
 
-<p align="center">
-   <img src="https://img.shields.io/badge/OSINT-Geolocation-black?style=for-the-badge&logo=googlemaps" />
-   <img src="https://img.shields.io/badge/CTF-Writeup-red?style=for-the-badge&logo=hackthebox" />
-   <img src="https://img.shields.io/badge/Recon-Ready-blue?style=for-the-badge&logo=linux" />
-</p>
+
 
 ---
 
